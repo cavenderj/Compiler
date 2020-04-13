@@ -1,0 +1,124 @@
+cin    i4
+cin    i5
+cout    "i1 = "
+cout    i1
++    i2    11    _t_2
+<=    i1    _t_2  goto  L_2
+=    0        _t_1
+goto  L_3
+L_2
+=    1        _t_1
+L_3
+==    _t_1    0    goto L_1
++    c1    12    _t_3
+=    _t_3        i1
+goto L_4
+L_1
+=    13        i3
+=    14        i4
+L_4
+>=    i4    11  goto  L_7
+=    0        _t_1
+goto  L_8
+L_7
+=    1        _t_1
+L_8
+==    _t_1    0    goto L_6
+L_11
+>=    i5    22  goto  L_12
+=    0        _t_3
+goto  L_13
+L_12
+=    1        _t_3
+L_13
+>    i6    33  goto  L_14
+=    0        _t_5
+goto  L_15
+L_14
+=    1        _t_5
+L_15
+&    _t_3    _t_5    _t_4
+==    _t_4    0    goto L_10
+==    i7    44  goto  L_18
+=    0        _t_7
+goto  L_19
+L_18
+=    1        _t_7
+L_19
+==    _t_7    0    goto L_17
+L_22
+>    i1    55  goto  L_23
+=    0        _t_9
+goto  L_24
+L_23
+=    1        _t_9
+L_24
+==    _t_9    0    goto L_21
+-    i1    66    _t_10
+=    _t_10        i1
+cout    "i1 = "
+cout    i1
+=    1        _t_0
+[]=    char_2    _t_0    a3
+goto L_22
+L_21
+goto L_25
+L_17
+=    77        i7
+L_25
+goto L_11
+L_10
+goto L_26
+L_6
+>    i4    88  goto  L_29
+=    0        _t_1
+goto  L_30
+L_29
+=    1        _t_1
+L_30
+==    _t_1    0    goto L_28
+=    99        i4
+goto L_31
+L_28
+=    111        i4
+L_31
+L_26
+=    1        _t_0
+[]=    char_2    _t_0    a3
+=    1        _t_0
+=[]    a3    _t_0    _t_1
+=    _t_1        char_1
+<=    i    222  goto  L_34
+=    0        _t_1
+goto  L_35
+L_34
+=    1        _t_1
+L_35
+<    sum    333  goto  L_36
+=    0        _t_3
+goto  L_37
+L_36
+=    1        _t_3
+L_37
+&    _t_1    _t_3    _t_2
+>    sum    444  goto  L_38
+=    0        _t_6
+goto  L_39
+L_38
+=    1        _t_6
+L_39
+==    i3    555  goto  L_40
+=    0        _t_8
+goto  L_41
+L_40
+=    1        _t_8
+L_41
+&    _t_6    _t_8    _t_7
+^    _t_7    1    _t_7
+|    _t_2    _t_7    _t_4
+==    _t_4    0    goto L_33
+=    1001        sum
+goto L_42
+L_33
+=    1002        sum
+L_42
